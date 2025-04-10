@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Gestión</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="../img/sw.png" alt="Logo">
+            <h2>SWAGGER</h2>
+        </div>
+        <ul class="nav-links">
+            <li data-table="formcontrollerprueba"><a href="#"><i class="fas fa-home"></i> FormControllerPrueba</a></li>
+            <li data-table="formmodule"><a href="#"><i class="fas fa-table"></i> FormModule</a></li>
+            <li data-table="module"><a href="#"><i class="fas fa-cube"></i> Module</a></li>
+            <li data-table="permission"><a href="#"><i class="fas fa-lock"></i> Permission</a></li>
+            <li data-table="person"><a href="#"><i class="fas fa-user"></i> Person</a></li>
+            <li data-table="rol"><a href="#"><i class="fas fa-users-cog"></i> Rol</a></li>
+            <li data-table="rolformpermission"><a href="#"><i class="fas fa-user-shield"></i> RolFormPermission</a></li>
+            <li data-table="roluser"><a href="#"><i class="fas fa-user-tag"></i> RolUser</a></li>
+            <li data-table="user"><a href="#"><i class="fas fa-user-circle"></i> User</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <header>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="header-title">
+                <h1>Sistema de Gestión de Datos</h1>
+            </div>
+            <div class="user-info">
+                <span>Admin</span>
+                <img src="../img/sw.png" alt="User">
+            </div>
+        </header>
+
+        <div class="content-area">
+
+          <div class="tablaPerson">
+            <div class="container mt-5">
+                <div class="table-responsive shadow-sm rounded-4 overflow-hidden">
+                  <table class="table table-striped table-hover align-middle mb-0 bg-white">
+                    <thead class="table-primary">
+                      <tr>
+                        <th>#</th>
+                        <th>Firstname</th>
+                        <th>lastname</th>
+                        <th>phonenumber</th>
+                        <th>active</th>
+                        <th>isdeleted</th>
+                        
+
+
+                        <th class="text-end">Acciones</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- <tr>
+                        <td>1</td>
+                        <td>Juan</td>
+                        <td>Juan Rodriguez</td>
+                        <td>J122233</td>
+                        <td>True</td>
+                        <td>False</td>
+
+                        <td class="text-end">
+                          <button class="btn btn-sm btn-outline-primary me-1">Editar</button>
+                          <button class="btn btn-sm btn-outline-danger">Eliminar</button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>1</td>
+                        <td>Juan</td>
+                        <td>Juan Rodriguez</td>
+                        <td>J122233</td>
+                        <td>True</td>
+                        <td>False</td>
+
+                        <td class="text-end">
+                          <button class="btn btn-sm btn-outline-primary me-1">Editar</button>
+                          <button class="btn btn-sm btn-outline-danger">Eliminar</button>
+                        </td>
+                      </tr> -->
+                      
+                      <!-- Más filas... -->
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+          </div>
+          
+            <!-- <div id="welcome-screen">
+                <h2>Bienvenido al Sistema de Gestión</h2>
+                <p>Selecciona una opción del menú lateral para ver los registros.</p>
+                <img src="/placeholder.svg?height=300&width=500" alt="Dashboard Image">
+            </div> -->
+            
+
+            <div id="table-container" style="display: none;">
+                <div class="table-header">
+                    <h2 id="table-title">Tabla</h2>
+                    <button id="add-record-btn" class="btn-primary">
+                        <i class="fas fa-plus"></i> Nuevo Registro
+                    </button>
+                </div>
+                <div class="table-wrapper">
+                    <table id="data-table">
+                        <thead>
+                            <tr id="table-headers"></tr>
+                        </thead>
+                        <tbody id="table-body"></tbody>
+                    </table>
+                </div>
+                <div class="pagination">
+                    <button id="prev-page" disabled><i class="fas fa-chevron-left"></i></button>
+                    <span id="page-info">Página 1 de 3</span>
+                    <button id="next-page" disabled><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+
+            <div id="form-container" class="modal" style="display: none;">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 id="form-title">Añadir Registro</h2>
+                        <span class="close-modal">&times;</span>
+                    </div>
+                    <div class="modal-body">
+                        <form id="record-form"></form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn-secondary close-btn">Cancelar</button>
+                        <button type="button" class="btn-primary save-btn">Guardar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="overlay" style="display: none;"></div>
+
+    <script src="../js/db.js"></script>
+
+
+    <script src="../js/ListarPerson.js"></script>
+</body>
+</html>
