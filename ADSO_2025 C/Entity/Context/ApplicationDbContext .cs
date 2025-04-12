@@ -36,12 +36,12 @@ namespace Entity.Context
         /// DB SETS
         ///
         public DbSet<Person> person { get; set; }
-        public DbSet<User> user { get; set; }
+        public DbSet<User> User { get; set; }
         public DbSet<Form> form { get; set; }
-        public DbSet<Module> module { get; set; }
+        public DbSet<Module> Module { get; set; }
 
         public DbSet<rol> rol { get; set; }
-        public DbSet<Permission> permission { get; set; }
+        public DbSet<Permission> Permission { get; set; }
 
         public DbSet<RolUser> roluser { get; set; }
         public DbSet<RolFormPermission> rolformpermission { get; set; }

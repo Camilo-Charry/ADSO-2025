@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Camilo\\Desktop\\MER_Proyect\\Entity\\Entity.csproj": {}
+    "C:\\Users\\Camilo\\Desktop\\ADSO-2025\\ADSO_2025 C\\Entity\\Entity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Camilo\\Desktop\\MER_Proyect\\Entity\\Entity.csproj": {
+    "C:\\Users\\Camilo\\Desktop\\ADSO-2025\\ADSO_2025 C\\Entity\\Entity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Camilo\\Desktop\\MER_Proyect\\Entity\\Entity.csproj",
+        "projectUniqueName": "C:\\Users\\Camilo\\Desktop\\ADSO-2025\\ADSO_2025 C\\Entity\\Entity.csproj",
         "projectName": "Entity",
-        "projectPath": "C:\\Users\\Camilo\\Desktop\\MER_Proyect\\Entity\\Entity.csproj",
+        "projectPath": "C:\\Users\\Camilo\\Desktop\\ADSO-2025\\ADSO_2025 C\\Entity\\Entity.csproj",
         "packagesPath": "C:\\Users\\Camilo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Camilo\\Desktop\\MER_Proyect\\Entity\\obj\\",
+        "outputPath": "C:\\Users\\Camilo\\Desktop\\ADSO-2025\\ADSO_2025 C\\Entity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

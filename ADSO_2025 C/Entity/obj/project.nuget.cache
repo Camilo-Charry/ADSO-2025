@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pdHZgQYAc3g=",
+  "dgSpecHash": "G8y9tsWECBY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Camilo\\Desktop\\MER_Proyect\\Entity\\Entity.csproj",
+  "projectFilePath": "C:\\Users\\Camilo\\Desktop\\ADSO-2025\\ADSO_2025 C\\Entity\\Entity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Camilo\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\Camilo\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

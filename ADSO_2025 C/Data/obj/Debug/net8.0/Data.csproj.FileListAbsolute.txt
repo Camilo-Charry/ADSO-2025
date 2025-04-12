@@ -207,3 +207,21 @@ C:\Users\Camilo\Desktop\MER_Proyect\Data\obj\Debug\net8.0\refint\Data.dll
 C:\Users\Camilo\Desktop\MER_Proyect\Data\obj\Debug\net8.0\Data.pdb
 C:\Users\Camilo\Desktop\MER_Proyect\Data\obj\Debug\net8.0\Data.genruntimeconfig.cache
 C:\Users\Camilo\Desktop\MER_Proyect\Data\obj\Debug\net8.0\ref\Data.dll
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\bin\Debug\net8.0\Data.deps.json
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\bin\Debug\net8.0\Data.runtimeconfig.json
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\bin\Debug\net8.0\Data.dll
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\bin\Debug\net8.0\Data.pdb
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\bin\Debug\net8.0\Entity.dll
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\bin\Debug\net8.0\Entity.pdb
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\obj\Debug\net8.0\Data.csproj.AssemblyReference.cache
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\obj\Debug\net8.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\obj\Debug\net8.0\Data.AssemblyInfoInputs.cache
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\obj\Debug\net8.0\Data.AssemblyInfo.cs
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\obj\Debug\net8.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\obj\Debug\net8.0\Data.sourcelink.json
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\obj\Debug\net8.0\Data.csproj.Up2Date
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\obj\Debug\net8.0\Data.dll
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\obj\Debug\net8.0\refint\Data.dll
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\obj\Debug\net8.0\Data.pdb
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\obj\Debug\net8.0\Data.genruntimeconfig.cache
+C:\Users\Camilo\Desktop\ADSO-2025\ADSO_2025 C\Data\obj\Debug\net8.0\ref\Data.dll

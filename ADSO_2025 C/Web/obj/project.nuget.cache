@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2fkrbMak7QM=",
+  "dgSpecHash": "jVgnCM5rTOI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Camilo\\Desktop\\MER_Proyect\\Web\\Web.csproj",
+  "projectFilePath": "C:\\Users\\Camilo\\Desktop\\ADSO-2025\\ADSO_2025 C\\Web\\Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Camilo\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Camilo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

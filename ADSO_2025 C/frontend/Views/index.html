@@ -1,152 +1,255 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistema de Gestión</title>
-    <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sistema de Gestión</title>
+  <link rel="stylesheet" href="../css/styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"/>
 </head>
 <body>
-    <div class="sidebar">
-        <div class="logo">
-            <img src="../img/sw.png" alt="Logo">
-            <h2>SWAGGER</h2>
-        </div>
-        <ul class="nav-links">
-            <li data-table="formcontrollerprueba"><a href="#"><i class="fas fa-home"></i> FormControllerPrueba</a></li>
-            <li data-table="formmodule"><a href="#"><i class="fas fa-table"></i> FormModule</a></li>
-            <li data-table="module"><a href="#"><i class="fas fa-cube"></i> Module</a></li>
-            <li data-table="permission"><a href="#"><i class="fas fa-lock"></i> Permission</a></li>
-            <li data-table="person"><a href="#"><i class="fas fa-user"></i> Person</a></li>
-            <li data-table="rol"><a href="#"><i class="fas fa-users-cog"></i> Rol</a></li>
-            <li data-table="rolformpermission"><a href="#"><i class="fas fa-user-shield"></i> RolFormPermission</a></li>
-            <li data-table="roluser"><a href="#"><i class="fas fa-user-tag"></i> RolUser</a></li>
-            <li data-table="user"><a href="#"><i class="fas fa-user-circle"></i> User</a></li>
-        </ul>
+  <div class="sidebar">
+    <div class="logo">
+      <img src="../img/sw.png" alt="Logo" />
+      <h2>SWAGGER</h2>
     </div>
+    <ul class="nav-links">
+      <li data-table="formcontrollerprueba"><a href="#"><i class="fas fa-home"></i> FormControllerPrueba</a></li>
+      <li data-table="formmodule"><a href="#"><i class="fas fa-table"></i> FormModule</a></li>
+      <li data-table="module"><a href="#"><i class="fas fa-cube"></i> Module</a></li>
+      <li data-table="permission"><a href="#"><i class="fas fa-lock"></i> Permission</a></li>
+      <li data-table="person"><a href="#"><i class="fas fa-user"></i> Person</a></li>
+      <li data-table="rol"><a href="#"><i class="fas fa-users-cog"></i> Rol</a></li>
+      <li data-table="rolformpermission"><a href="#"><i class="fas fa-user-shield"></i> RolFormPermission</a></li>
+      <li data-table="roluser"><a href="#"><i class="fas fa-user-tag"></i> RolUser</a></li>
+      <li data-table="user"><a href="#"><i class="fas fa-user-circle"></i> User</a></li>
+    </ul>
+  </div>
 
-    <div class="main-content">
-        <header>
-            <div class="menu-toggle">
-                <i class="fas fa-bars"></i>
-            </div>
-            <div class="header-title">
-                <h1>Sistema de Gestión de Datos</h1>
-            </div>
-            <div class="user-info">
-                <span>Admin</span>
-                <img src="../img/sw.png" alt="User">
-            </div>
-        </header>
+  <div class="main-content">
+    <header>
+      <div class="menu-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="header-title">
+        <h1>Sistema de Gestión de Datos</h1>
+      </div>
+      <div class="user-info">
+        <span>Admin</span>
+        <img src="../img/sw.png" alt="User" />
+      </div>
+    </header>
 
-        <div class="content-area">
-
-          <div class="tablaPerson">
-            <div class="container mt-5">
-                <div class="table-responsive shadow-sm rounded-4 overflow-hidden">
-                  <table class="table table-striped table-hover align-middle mb-0 bg-white">
-                    <thead class="table-primary">
-                      <tr>
-                        <th>#</th>
-                        <th>Firstname</th>
-                        <th>lastname</th>
-                        <th>phonenumber</th>
-                        <th>active</th>
-                        <th>isdeleted</th>
-                        
-
-
-                        <th class="text-end">Acciones</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <!-- <tr>
-                        <td>1</td>
-                        <td>Juan</td>
-                        <td>Juan Rodriguez</td>
-                        <td>J122233</td>
-                        <td>True</td>
-                        <td>False</td>
-
-                        <td class="text-end">
-                          <button class="btn btn-sm btn-outline-primary me-1">Editar</button>
-                          <button class="btn btn-sm btn-outline-danger">Eliminar</button>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>1</td>
-                        <td>Juan</td>
-                        <td>Juan Rodriguez</td>
-                        <td>J122233</td>
-                        <td>True</td>
-                        <td>False</td>
-
-                        <td class="text-end">
-                          <button class="btn btn-sm btn-outline-primary me-1">Editar</button>
-                          <button class="btn btn-sm btn-outline-danger">Eliminar</button>
-                        </td>
-                      </tr> -->
-                      
-                      <!-- Más filas... -->
-                    </tbody>
-                  </table>
-                </div>
-              </div>
+    <div class="content-area">
+      <div class="tablaPerson">
+        <div class="container mt-5">
+          <div class="table-responsive shadow-sm rounded-4 overflow-hidden">
+            <table class="table table-striped table-hover align-middle mb-0 bg-white">
+              <thead class="table-primary">
+                <tr>
+                  <th>#</th>
+                  <th>Nombre</th>
+                  <th>Apellido</th>
+                  <th>Teléfono</th>
+                  <th>Activo</th>
+                  <th>Eliminado</th>
+                  <th class="text-end">Acciones</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="7" class="text-center">Cargando datos...</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
-          
-            <!-- <div id="welcome-screen">
-                <h2>Bienvenido al Sistema de Gestión</h2>
-                <p>Selecciona una opción del menú lateral para ver los registros.</p>
-                <img src="/placeholder.svg?height=300&width=500" alt="Dashboard Image">
-            </div> -->
-            
-
-            <div id="table-container" style="display: none;">
-                <div class="table-header">
-                    <h2 id="table-title">Tabla</h2>
-                    <button id="add-record-btn" class="btn-primary">
-                        <i class="fas fa-plus"></i> Nuevo Registro
-                    </button>
-                </div>
-                <div class="table-wrapper">
-                    <table id="data-table">
-                        <thead>
-                            <tr id="table-headers"></tr>
-                        </thead>
-                        <tbody id="table-body"></tbody>
-                    </table>
-                </div>
-                <div class="pagination">
-                    <button id="prev-page" disabled><i class="fas fa-chevron-left"></i></button>
-                    <span id="page-info">Página 1 de 3</span>
-                    <button id="next-page" disabled><i class="fas fa-chevron-right"></i></button>
-                </div>
-            </div>
-
-            <div id="form-container" class="modal" style="display: none;">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h2 id="form-title">Añadir Registro</h2>
-                        <span class="close-modal">&times;</span>
-                    </div>
-                    <div class="modal-body">
-                        <form id="record-form"></form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn-secondary close-btn">Cancelar</button>
-                        <button type="button" class="btn-primary save-btn">Guardar</button>
-                    </div>
-                </div>
-            </div>
         </div>
+      </div>
+
+      <div id="table-container" style="display: none;">
+        <div class="table-header">
+          <h2 id="table-title">Tabla</h2>
+        </div>
+        <div class="table-wrapper">
+          <table id="data-table">
+            <thead>
+              <tr id="table-headers"></tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="form-container" class="modal" style="display: none;">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 id="form-title">Editar Registro</h2>
+            <span class="close-modal">&times;</span>
+          </div>
+          <div class="modal-body">
+            <form id="record-form"></form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn-secondary close-btn">Cancelar</button>
+            <button type="button" class="btn-primary save-btn">Guardar</button>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <div id="overlay" style="display: none;"></div>
+  <div id="overlay" style="display: none;"></div>
 
-    <script src="../js/db.js"></script>
+  <!-- Scripts -->
+  <script src="../js/db.js"></script>
+  <script src="../js/ListarPerson.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const menuToggle = document.querySelector(".menu-toggle");
+      const sidebar = document.querySelector(".sidebar");
+      const navLinks = document.querySelectorAll(".nav-links li");
 
-    <script src="../js/ListarPerson.js"></script>
+      menuToggle.addEventListener("click", function () {
+        sidebar.classList.toggle("active");
+      });
+
+      navLinks.forEach(link => {
+        link.addEventListener("click", function () {
+          navLinks.forEach(l => l.classList.remove("active"));
+          this.classList.add("active");
+        });
+      });
+
+      const tableContainer = document.getElementById("table-container");
+      const tableTitle = document.getElementById("table-title");
+      const tableHeaders = document.getElementById("table-headers");
+      const tableBody = document.getElementById("table-body");
+      const tablaPerson = document.querySelector(".tablaPerson");
+
+      navLinks.forEach(link => {
+        link.addEventListener("click", async function () {
+          const tableName = this.getAttribute("data-table");
+
+          if (tableName === "person") {
+            tablaPerson.style.display = "block";
+            tableContainer.style.display = "none";
+            return;
+          } else {
+            tablaPerson.style.display = "none";
+            tableContainer.style.display = "block";
+          }
+
+          tableTitle.textContent = `Tabla: ${tableName}`;
+          try {
+            const structure = await window.dbFunctions.getFormStructure(tableName);
+            const data = await window.dbFunctions.getTableData(tableName);
+
+            tableHeaders.innerHTML = "";
+            structure.forEach(field => {
+              const th = document.createElement("th");
+              th.textContent = field.label || field.name || field;
+              tableHeaders.appendChild(th);
+            });
+
+            tableHeaders.innerHTML += `<th>Acciones</th>`;
+
+            tableBody.innerHTML = "";
+            if (data.length === 0) {
+              tableBody.innerHTML = `<tr><td colspan="${structure.length + 1}" class="text-center">No hay registros disponibles</td></tr>`;
+              return;
+            }
+
+            data.forEach(row => {
+              const tr = document.createElement("tr");
+
+              structure.forEach(field => {
+                const td = document.createElement("td");
+                td.textContent = row[field.name] !== undefined ? row[field.name] : "";
+                tr.appendChild(td);
+              });
+
+              const actionsTd = document.createElement("td");
+              actionsTd.innerHTML = `<button class='btn btn-sm btn-outline-primary edit-btn'><i class='fas fa-edit'></i> Editar</button>`;
+              actionsTd.querySelector(".edit-btn").addEventListener("click", () => {
+                showEditForm(tableName, structure, row);
+              });
+
+              tr.appendChild(actionsTd);
+              tableBody.appendChild(tr);
+            });
+
+          } catch (error) {
+            console.error("Error al cargar tabla:", error);
+            tableBody.innerHTML = `<tr><td colspan="100%" class="text-danger">Error al cargar la tabla.</td></tr>`;
+          }
+        });
+      });
+    });
+
+    async function showEditForm(tableName, structure, rowData) {
+      const formContainer = document.getElementById("form-container");
+      const formTitle = document.getElementById("form-title");
+      const form = document.getElementById("record-form");
+      const overlay = document.getElementById("overlay");
+
+      form.innerHTML = "";
+      formTitle.textContent = "Editar Registro";
+
+      structure.forEach(field => {
+        const value = rowData[field.name] !== undefined ? rowData[field.name] : "";
+
+        const formGroup = document.createElement("div");
+        formGroup.className = "form-group";
+
+        const label = document.createElement("label");
+        label.textContent = field.label || field.name;
+
+        const input = document.createElement("input");
+        input.type = "text";
+        input.name = field.name;
+        input.value = value;
+
+        formGroup.appendChild(label);
+        formGroup.appendChild(input);
+        form.appendChild(formGroup);
+      });
+
+      document.querySelector(".save-btn").onclick = async () => {
+        const updatedData = {};
+        structure.forEach(field => {
+          const input = form.querySelector(`[name="${field.name}"]`);
+          updatedData[field.name] = input.value;
+        });
+
+        const idField = structure.find(f => f.name.toLowerCase() === "id");
+        const id = rowData[idField.name];
+
+        const result = await window.dbFunctions.updateRecord(tableName, id, updatedData);
+        if (result) {
+          alert("Registro actualizado correctamente");
+          overlay.style.display = "none";
+          formContainer.style.display = "none";
+          document.querySelector(`[data-table='${tableName}']`).click();
+        } else {
+          alert("Error al actualizar el registro");
+        }
+      };
+
+      document.querySelector(".close-modal").onclick = () => {
+        overlay.style.display = "none";
+        formContainer.style.display = "none";
+      };
+      document.querySelector(".close-btn").onclick = () => {
+        overlay.style.display = "none";
+        formContainer.style.display = "none";
+      };
+
+      overlay.style.display = "block";
+      formContainer.style.display = "block";
+    }
+  </script>
 </body>
 </html>
